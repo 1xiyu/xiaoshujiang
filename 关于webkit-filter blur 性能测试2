@@ -1,0 +1,30 @@
+---
+title: 关于webkit-filter blur 性能测试2
+tags: ios，iPhone5c
+---
+# 关于webkit-filter blur 性能测试2
+## iPhone 普通图片渲染 测试
+
+图片宽度 | 图片高度 | 图片个数 | 结果
+---------|----------|-----------------|-----------
+  100%   |150px     |    1     |![enter description here][1]
+  100%   |150px     |    2     |![enter description here][2]
+  100%   |150px     |    3     |![enter description here][3]
+  100%   |150px     |    4     |![enter description here][4]
+  100%   |150px     |    8     |![enter description here][5]
+  100%-H |150px     |    8     |![enter description here][6]
+
+### 说明：
+1. 手机上的显示区域大小2张半，如图：
+ ![enter description here][7]
+2.添加overflow：hidden；之后没有明显提高渲染效率，反而有微量降低；
+
+
+
+  [1]: ./1430106330519.jpg "1430106330519.jpg"
+  [2]: ./1430106497036.jpg "1430106497036.jpg"
+  [3]: ./1430107317234.jpg "1430107317234.jpg"
+  [4]: ./1430107122244.jpg "1430107122244.jpg"
+  [5]: ./1430107549772.jpg "1430107549772.jpg"
+  [6]: ./1430108166732.jpg "1430108166732.jpg"
+  [7]: ./1430107799262.jpg "1430107799262.jpg"
