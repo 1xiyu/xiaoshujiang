@@ -12,3 +12,9 @@ tags: ios,hybrid,bug
 
 
 ## js部分
+
+##scss定义设置
+1. `%abs00`:`position: absolute;left: 0;top: 0;`
+2. `%w100h100`:`width: 100%;height: 100%;`
+3. `%pseudo-ab`: `content: '';position: absolute;`
+  
