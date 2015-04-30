@@ -14,7 +14,8 @@ tags: ios,hybrid,bug
 ## js部分
 
 ##scss定义设置
-1. `%abs00`:`position: absolute;left: 0;top: 0;`
-2. `%w100h100`:`width: 100%;height: 100%;`
-3. `%pseudo-ab`: `content: '';position: absolute;`
+### Placeholder的定义
+1. `%abs00`:`position: absolute;left: 0;top: 0;`——绝对定位常用
+2. `%w100h100`:`width: 100%;height: 100%;`——全屏，全父元素大小
+3. `%pseudo-ab`: `content: '';position: absolute;`——before，after伪类常用
   
