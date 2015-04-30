@@ -21,8 +21,12 @@ tags: ios,hybrid,bug
 3. `%pseudo-ab`: `content: '';position: absolute;`——before，after伪类常用
 
 ### mixin定义
-1. `heightAndLineHight(.px)`：同时设置高度和行高，用于单行居中
+1. `heightAndLineHight(*px)`：同时设置高度和行高，用于单行居中
 
 ### function定义
-1. `px2rem`：把设计图的px单位转换为实际使用的rem单位
+1. `px2rem(*px)`：把设计图的px单位转换为实际使用的rem单位
+
+### 变量定义
+1. `color_*****`:代表这个变量是某一种颜色
+
   
