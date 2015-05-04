@@ -10,7 +10,8 @@ tags: ios,hybrid,bug
 1. 模糊效果只能在ios设备和安卓4.4版本上才有效，在其他设备上的兼容代码尚未填写
 2. 模糊方式暂定为背景图片，后期可能需要改为img
 3. 小图标同一整理为iconfont，设计到小图标内容暂时搁置；
-4. tab切换小iocn需要用渐变完成，兼容写法比麻烦，暂缓研究
+4. tab切换小iocn需要用渐变完成，兼容写法比麻烦，暂缓研究；
+5. 添加了border 0.5px，不知道是否生效，在`.detail-author, .detail-summary, .detail-tags `这个属性上
 
 
 ## js部分
