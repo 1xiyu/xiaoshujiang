@@ -12,6 +12,7 @@ tags: ios,hybrid,bug
 3. 小图标同一整理为iconfont，设计到小图标内容暂时搁置；
 4. tab切换小iocn需要用渐变完成，兼容写法比麻烦，暂缓研究；
 5. 添加了border 0.5px，不知道是否生效，在`.detail-author, .detail-summary, .detail-tags `这个属性上
+6. 章节列表的lock状态的尚未添加icon
 
 
 ## js部分
@@ -23,6 +24,7 @@ tags: ios,hybrid,bug
 2. `%w100h100`:`width: 100%;height: 100%;`——全屏，全父元素大小
 3. `%pseudo-ab`: `content: '';position: absolute;`——before，after伪类常用
 4. `%comicInfo-****`：当前页面定义的属性，**不一定都出现在文件的头部！！**
+
 
 ### mixin定义
 1. `heightAndLineHight(*px)`：同时设置高度和行高，用于单行居中
