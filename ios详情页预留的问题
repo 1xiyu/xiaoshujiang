@@ -23,7 +23,8 @@ tags: ios,hybrid,bug
 1. `%abs00`:`position: absolute;left: 0;top: 0;`——绝对定位常用
 2. `%w100h100`:`width: 100%;height: 100%;`——全屏，全父元素大小
 3. `%pseudo-ab`: `content: '';position: absolute;`——before，after伪类常用
-4. `%comicInfo-****`：当前页面定义的属性，**不一定都出现在文件的头部！！**
+4. `%overflow-ellipsis`:单行文字超出文字截断
+5. `%comicInfo-****`：当前页面定义的属性，**不一定都出现在文件的头部！！**
 
 
 ### mixin定义
