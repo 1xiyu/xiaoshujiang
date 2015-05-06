@@ -13,7 +13,9 @@ tags: ios,hybrid,bug
 4. tab切换小iocn需要用渐变完成，兼容写法比麻烦，暂缓研究；
 5. 添加了border 0.5px，不知道是否生效，在`.detail-author, .detail-summary, .detail-tags `这个属性上
 6. 章节列表的lock状态的尚未添加icon
-7. 添加查询更新时间，之前的接口没有提供这个功能
+7. 添加查询更新时间，之前的接口没有提供这个功能（已完成）
+8. iconfont正在使用在线地址，正式上线前替换为本地地址
+9. getChapterList方法添加一个作品id参数
 
 
 ## js部分
